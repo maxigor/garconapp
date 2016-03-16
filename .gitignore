@@ -40,7 +40,8 @@ dist # yeoman
 .tmp # yeoman
 
 ## Cordova & PhoneGap
-
+platforms
+plugins
 
 # OS generated files #
 ######################
