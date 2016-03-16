@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.codingpixels.garconapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="BarcodeScanner">
+        <param name="android-package" value="com.phonegap.plugins.barcodescanner.BarcodeScanner" />
+    </feature>
+    <preference name="StatusBarBackgroundColor" value="#E86C13" />
+    <name>Garçonete - Só de Cenoura</name>
+    <description>
+        App para uso das garçonetes dentro do restaurante.
+    </description>
+    <author email="maxigor.ferreira@gmail.com" href="http://codingpixels.com.br">
+        Max Igor
+    </author>
+    <preference name="Orientation" value="portrait" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="BackgroundColor" value="0xF2F2F2FF" />
+    <icon src="resources/ios/icon/icon-small@3x.png" />
+    <splash src="resources/splash.png" />
+</widget>
