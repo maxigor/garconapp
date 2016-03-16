@@ -62,5 +62,5 @@ $('#acao-finalizar').on('click', function(){
       error: function(erro){
          Materialize.toast(erro.responseText, 3000, 'red-text');
       }
-   })
+   });
 });
