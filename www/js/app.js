@@ -56,6 +56,7 @@ $('#acao-finalizar').on('click', function(){
       },
       success: function(resposta){
          Materialize.toast(resposta, 2000);
+         navigator.vibrate(3000);
          $('#numeroDaMesa').val('');
          $('.badge').remove();
       },

@@ -11,6 +11,7 @@
         Max Igor
     </author>
     <access origin="http://cozinhapp.sergiolopes.org" />
+    <allow-intent href="tel:*" />
     <preference name="Orientation" value="portrait" />
     <preference name="Fullscreen" value="true" />
     <preference name="BackgroundColor" value="0xF2F2F2FF" />

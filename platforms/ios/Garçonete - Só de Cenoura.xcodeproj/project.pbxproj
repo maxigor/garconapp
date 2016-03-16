@@ -26,6 +26,7 @@
 		F395AC4A5B7042B6A2602FA4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F652728FEBEB49769E01F6ED /* QuartzCore.framework */; };
 		5FA62E0505A343269BE68646 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD8243E2078435ABC8D8CD2 /* CoreImage.framework */; };
 		285CF8C3607B4AF2934A4437 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533C62240E8D46C2B961D8AE /* AudioToolbox.framework */; };
+		0EA4BDB172F84FB180F0AFD9 /* CDVVibration.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C3555AAB3D49D9A3C49828 /* CDVVibration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		F652728FEBEB49769E01F6ED /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		1AD8243E2078435ABC8D8CD2 /* CoreImage.framework */ = {isa = PBXFileReference; name = "CoreImage.framework"; path = "System/Library/Frameworks/CoreImage.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		533C62240E8D46C2B961D8AE /* AudioToolbox.framework */ = {isa = PBXFileReference; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		F8C3555AAB3D49D9A3C49828 /* CDVVibration.m */ = {isa = PBXFileReference; name = "CDVVibration.m"; path = "cordova-plugin-vibration/CDVVibration.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		9E568F2785D54EE8832A1AA8 /* CDVVibration.h */ = {isa = PBXFileReference; name = "CDVVibration.h"; path = "cordova-plugin-vibration/CDVVibration.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +202,8 @@
 				431DE8D4ADB34735B4B546A6 /* CDVBarcodeScanner.mm */,
 				EA893843A61C4E48B11F9720 /* zxing-all-in-one.cpp */,
 				A7A205B1F885420BA22060CD /* zxing-all-in-one.h */,
+				F8C3555AAB3D49D9A3C49828 /* CDVVibration.m */,
+				9E568F2785D54EE8832A1AA8 /* CDVVibration.h */,
 			);
 			name = Plugins;
 			path = "Garçonete - Só de Cenoura/Plugins";
@@ -326,6 +331,7 @@
 				24FE3EBB66CD46A69958C3A3 /* CDVStatusBar.m in Sources */,
 				CCB595EFFF9846958D3BCE1E /* CDVBarcodeScanner.mm in Resources */,
 				2596DAA7BE754191B02577AB /* zxing-all-in-one.cpp in Resources */,
+				0EA4BDB172F84FB180F0AFD9 /* CDVVibration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

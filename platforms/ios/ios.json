@@ -23,6 +23,10 @@
                         {
                             "xml": "<feature name=\"BarcodeScanner\"><param name=\"ios-package\" value=\"CDVBarcodeScanner\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Vibration\"><param name=\"ios-package\" value=\"CDVVibration\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -37,6 +41,9 @@
             "PACKAGE_NAME": "br.com.codingpixels.garconapp"
         },
         "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "br.com.codingpixels.garconapp"
+        },
+        "cordova-plugin-vibration": {
             "PACKAGE_NAME": "br.com.codingpixels.garconapp"
         }
     },
@@ -56,6 +63,15 @@
             "pluginId": "phonegap-plugin-barcodescanner",
             "clobbers": [
                 "cordova.plugins.barcodeScanner"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-vibration/www/vibration.js",
+            "id": "cordova-plugin-vibration.notification",
+            "pluginId": "cordova-plugin-vibration",
+            "merges": [
+                "navigator.notification",
+                "navigator"
             ]
         }
     ]

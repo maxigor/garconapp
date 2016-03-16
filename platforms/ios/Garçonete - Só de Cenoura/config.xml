@@ -37,6 +37,9 @@
     <feature name="BarcodeScanner">
         <param name="ios-package" value="CDVBarcodeScanner" />
     </feature>
+    <feature name="Vibration">
+        <param name="ios-package" value="CDVVibration" />
+    </feature>
     <preference name="DisallowOverscroll" value="true" />
     <icon height="57" src="resources/ios/icon/icon.png" width="57" />
     <icon height="114" src="resources/ios/icon/icon@2x.png" width="114" />
@@ -67,6 +70,7 @@
         Max Igor
     </author>
     <access origin="http://cozinhapp.sergiolopes.org" />
+    <allow-intent href="tel:*" />
     <preference name="Orientation" value="portrait" />
     <preference name="Fullscreen" value="true" />
     <preference name="BackgroundColor" value="0xF2F2F2FF" />
