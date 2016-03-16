@@ -47,12 +47,20 @@ $('.acao-limpar').on('click', function(){
 });
 
 
-$('.acao-limpar').on('click', function(){
+$('#acao-finalizar').on('click', function(){
    $.ajax({
       url: 'http://cozinhapp.sergiolopes.org/novo-pedido',
       data: {
          mesa: $('#numeroDaMesa').val(),
          pedido: $('#resumo').text()
+      },
+      success: function(resposta){
+         Materialize.toast(resposta, 2000);
+         $('#numeroDaMesa').val('');
+         $('.badge').remove();
+      },
+      error: function(erro){
+         Materialize.toast(erro.responseText, 3000, 'red-text');
       }
    })
 });

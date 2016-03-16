@@ -14,7 +14,7 @@
          <h5 class="titulo">Só de Cenoura</h5>
 
          <div>
-            <i class="material-icons waves-effect waves-light waves-circle">camera</i>
+            <i id="qrCode" class="material-icons waves-effect waves-light waves-circle">camera</i>
             <i class="dropdown-button material-icons waves-effect waves-light waves-circle" data-activates="dropdown" datas-gutter="5" data-contrainwidth="false">more_vert</i>
          </div>
 
@@ -81,12 +81,13 @@
          <blockquote id="resumo"></blockquote>
       </div>
       <div class="modal-footer">
-         <button class="btn deep-orange waves-effect waves-light modal-close">Pedir</button>
+         <button id="acao-finalizar" class="btn deep-orange waves-effect waves-light modal-close">Pedir</button>
          <button class="btn-flat waves-effect waves-red waves-light modal-close acao-limpar">Cancelar</button>
       </div>
    </div>
 
 
+    <script src="cordova.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="js/app.js"></script>
