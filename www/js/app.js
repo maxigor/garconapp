@@ -41,7 +41,8 @@ $('.collection-item').on('click', '.badge' , function(){
    return false;
 });
 
-$('.acao-limpar').on('click', function(){
+$('.acao-limpar').on('click', function(event){
+   event.preventDefault();
    $('#numeroDaMesa').val('');
    $('.badge').remove();
 });
